@@ -1,0 +1,59 @@
+Хранятся целые числа типа Integer
+
+1. Реализовать связанный список, который поддерживал бы следующие методы:
+
+Методы класса MyLinkedList:
+
+add(Integer e) - вставляет элемент в конец списка
+
+add(int index, Integer element) - вставляет элемент на указанную позицию, сдвигая остальные элементы
+
+addFirst(Integer e)
+
+addLast(Integer e)
+
+Integer get(int index)
+
+Integer getFirst()
+
+Integer getLast()
+
+Integer remove(int index)
+
+Integer removeFirst()
+
+Integer removeLast()
+
+set(int index, Integer element) - изменяет значение элемента
+
+int size() - размер списка
+
+int indexOf(Integer o) - поиск индекса по значению
+
+Методы класса Element:
+
+boolean hasNext() - есть ли следующий
+
+Element next() - вернуть следующий
+
+void remove() - удалить элемент
+
+get/setElement()
+
+2. На основе связанного списка используя композицию реализовать класс MyQueue - очередь с 
+
+набором следующих методов
+
+offer(Element e) - добавить в конец очереди
+
+Element peek() - взять без удаления, элемент из очереди
+
+Element poll() - взять и удалить элемент из очереди
+
+3. На основе связанного списка используя композицию реализовать класс MyStack - стек с набором 
+
+следующих методов
+
+push(Element e) - поместить элемент в стек
+
+Element pop() - взять элемент из стека

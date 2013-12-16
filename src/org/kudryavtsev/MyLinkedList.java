@@ -4,14 +4,11 @@
  * @version 0.05
  * @author OmiCrown
  */
+
 package org.kudryavtsev;
 
 import java.util.LinkedList;
 
-/**
- *
- * @author Omicrown
- */
 public class MyLinkedList {
 
     private LinkedList<Integer> ll;
@@ -33,7 +30,7 @@ public class MyLinkedList {
     }
 
     /**
-     *
+     * хм.. Делать обработку исключений IndexOutOfBoundsException?
      * @param e
      * @param element
      */
@@ -58,7 +55,7 @@ public class MyLinkedList {
     }
 
     /**
-     *
+     * Делать обработку исключений IndexOutOfBoundsException?
      * @param index
      * @return
      */
@@ -83,7 +80,7 @@ public class MyLinkedList {
     }
 
     /**
-     *
+     * Делать обработку исключений IndexOutOfBoundsException?
      * @param index
      * @return
      */
@@ -108,7 +105,11 @@ public class MyLinkedList {
     }
 
     /**
-     *
+     *  Поскольку в задании set без возврата, 
+     * то мы меняем элемент на нужный, 
+     * а старый назад не возвращаем
+     * 
+     *    Делать обработку исключений IndexOutOfBoundsException?
      * @param index
      * @param element
      */
@@ -126,7 +127,7 @@ public class MyLinkedList {
     }
     
     /**
-     *
+     *  
      * @param o
      * @return
      */
